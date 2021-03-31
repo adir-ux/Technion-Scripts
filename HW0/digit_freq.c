@@ -11,7 +11,7 @@
 
 //@brief - counts occurences of digits in a string
 int main() {
-    char str[1000];
+    char str[1000] = {0};
     int count[10] = {0};
     
     scanf("%s", str);
