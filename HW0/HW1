@@ -9,7 +9,7 @@
 void print_matrix(int matrix[N][N], int n);
 
 /*
- * @brief func printing matrix.
+ * @brief prints the input matrix.
  * @param matrix[][] is the biggest possible matrix.
  * @param n is the user input.
  */
@@ -24,10 +24,9 @@ void print_matrix(int matrix[N][N], int n){
     printf("\n");
 }
 /*
-@ brief-print n concentric squares,outer square prints value n
- ,and inner squares values descending  order, down to 1.
-
-*/
+ * @brief-print n concentric squares,outer square prints value n
+ * @and inner squares values descending  order, down to 1.
+ */
 
 int main(){
     int n;
