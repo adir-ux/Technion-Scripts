@@ -1,11 +1,3 @@
-//
-//  main.c
-//  HW0-3
-//
-//  Created by Adir Betite on 29/03/2021.
-//  Copyright © 2021 Adir Betite and Maayan Edri. All rights reserved.
-//
-
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,17 +6,20 @@
 #define MIN_ELEMENT 1
 #define MAX_ELEMENT 1000000
 
-//@brief - returns the sum/min/max of its arguments
-//@args  - (number-of-arguments, ...) - ellipsis is at least one int elements.
+/* 
+ * @brief - returns the sum/min/max of its arguments 
+ * @args  - (number-of-arguments, ...) - ellipsis is at least one int elements.
+ */
+
 int sum(int count,...) {
     va_list ap;
     int i, sum;
     
-    va_start(ap, count);        //Initializing the arguments list
+    va_start(ap, count);        /*Initializing the arguments list*/
     
     sum = 0;
     for (i=0 ; i<count ; i++)
-        sum += va_arg(ap, int); //take arguments one by one and calculate
+        sum += va_arg(ap, int); /*take arguments one by one and calculate*/
     
     va_end (ap);
     return sum;
