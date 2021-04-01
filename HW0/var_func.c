@@ -15,7 +15,7 @@
 #define MAX_ELEMENT 1000000
 
 //@brief - returns the sum/min/max of its arguments
-//@args  - (number-of-elements, ...) - ellipsis is at least one int elements.
+//@args  - (number-of-arguments, ...) - ellipsis is at least one int elements.
 int sum(int count,...) {
     va_list ap;
     int i, sum;
