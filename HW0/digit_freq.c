@@ -2,7 +2,7 @@
 
 #define MAX_NUM '9'
 #define MIN_NUM '0'
-#define DBASE   10 //the base in which the digits are in (decimal..)
+#define DBASE   10 /* the base in which the digits are in (decimal..) */
 
 #include <stdio.h>
 #include <string.h>
@@ -17,8 +17,8 @@ int main() {
     scanf("%s", str);
     
     for (int i=0 ; str[i] ; i++) {
-        if (str[i] >= MIN_NUM && str[i] <= MAX_NUM) { //is the char a number
-            int tmp = str[i]-MIN_NUM;                 //turn char into int
+        if (str[i] >= MIN_NUM && str[i] <= MAX_NUM) { /* is the char a number */
+            int tmp = str[i]-MIN_NUM;                 /* turn char into int   */
             count[tmp]++;
         }
     }
