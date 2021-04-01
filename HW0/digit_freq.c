@@ -9,7 +9,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-//@brief - counts occurences of digits in a string
+/* @brief - counts occurences of digits in a string */
 int main() {
     char str[1000] = {0};
     int count[10] = {0};
@@ -24,7 +24,7 @@ int main() {
     }
     
     for (int i=0 ; i<DBASE  ; i++) {
-        printf("%d", count[i]);
+        printf("%d ", count[i]);
     }
     
     return 0;
