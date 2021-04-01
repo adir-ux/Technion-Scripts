@@ -17,8 +17,8 @@ int main() {
     scanf("%s", str);
     
     for (int i=0 ; str[i] ; i++) {
-        if (str[i] >= MIN_NUM && str[i] <= MAX_NUM) { /* is the char a number */
-            int tmp = str[i]-MIN_NUM;                 /* turn char into int   */
+        if (str[i] >= MIN_NUM && str[i] <= MAX_NUM) { /*is the char a number*/
+            int tmp = str[i]-MIN_NUM;                 /*turn char into int  */
             count[tmp]++;
         }
     }
