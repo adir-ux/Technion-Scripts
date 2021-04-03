@@ -6,8 +6,6 @@
 
 #define N 200
 
-void print_matrix(int matrix[N][N], int n);
-
 /*
  * @brief prints the input matrix.
  * @param matrix[][] is the biggest possible matrix.
