@@ -24,7 +24,10 @@ int main() {
     }
     
     for (int i=0 ; i<DBASE  ; i++) {
-        printf("%d ", count[i]);
+        printf("%d", count[i]);
+        if (i<DBASE-1) {
+            printf(" ")
+        }
     }
     
     return 0;
