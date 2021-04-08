@@ -1,1 +1,4 @@
 A collection of general scripts extracted for general use.
+
+Script in subject-specific folders are the script as it was used during the course.
+In `General` folder generalizes hard-coded strings into parameters.
