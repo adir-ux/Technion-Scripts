@@ -6,4 +6,4 @@
 #
 # git clone $repo_addr || (cd $repo_folder ; git pull)
 #
-git clone "https://adir-ux@github.com/adir-ux/Technion-Scripts" || ( cd Technion-Scripts ; git pull )
+git clone "https://USERNAME@github.com/REPOSITORY" || ( cd REPOSITORY ; git pull )
